@@ -1,0 +1,15 @@
+[package]
+name = "oxide"
+version = "0.1.0"
+authors = ["GLaDOS <nem35b@protonmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
